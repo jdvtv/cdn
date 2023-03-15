@@ -2,7 +2,22 @@ class TodoApp extends React.Component {
       constructor() {
         super();
         this.state = {
-          todos: ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'],
+          todos: [                                                                                                                                                          
+    {src:'https://d1di2lzuh97fh2.cloudfront.net/files/3w/3wg/3wgtbx.jpg?ph=762228e942', name: 'Backbone.js', description:'essa é a descricao de cada card', url: 'https://documentcloud.github.io/backbone/'},
+    {src:'https://762228e942.cbaul-cdnwnd.com/a39c552995a62183d70e3480929e57d4/200000010-8b6328b634/circulo-cruzado.svg?ph=762228e942', name: 'AngularJS', url: 'https://angularjs.org/'},
+    { name: 'jQuery', url: 'https://jquery.com/'},
+    { name: 'Prototype', url: 'https://www.prototypejs.org/'},
+    { name: 'React', url: 'https://facebook.github.io/react/'},
+    { name: 'Ember', url: 'https://emberjs.com/'},
+    { name: 'Knockout.js', url: 'https://knockoutjs.com/'},
+    { name: 'Dojo', url: 'https://dojotoolkit.org/'},
+    { name: 'Mootools', url: 'https://mootools.net/'},
+    { name: 'Underscore', url: 'https://documentcloud.github.io/underscore/'},
+    { name: 'Lodash', url: 'https://lodash.com/'},
+    { name: 'Moment', url: 'https://momentjs.com/'},
+    { name: 'Express', url: 'https://expressjs.com/'},
+    { name: 'Koa', url: 'https://koajs.com/'},
+],
           currentPage: 1,
           todosPerPage: 3,
           upperPageBound: 3,
