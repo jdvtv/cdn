@@ -2,24 +2,657 @@ class TodoApp extends React.Component {
       constructor() {
         super();
         this.state = {
-          todos: [                                                                                                                                                          
-    {src:'https://d1di2lzuh97fh2.cloudfront.net/files/3w/3wg/3wgtbx.jpg?ph=762228e942', name: 'Backbone.js', description:'essa é a descricao de cada card', url: 'https://documentcloud.github.io/backbone/'},
-    {src:'https://762228e942.cbaul-cdnwnd.com/a39c552995a62183d70e3480929e57d4/200000010-8b6328b634/circulo-cruzado.svg?ph=762228e942', name: 'AngularJS', url: 'https://angularjs.org/'},
-    { name: 'jQuery', url: 'https://jquery.com/'},
-    { name: 'Prototype', url: 'https://www.prototypejs.org/'},
-    { name: 'React', url: 'https://facebook.github.io/react/'},
-    { name: 'Ember', url: 'https://emberjs.com/'},
-    { name: 'Knockout.js', url: 'https://knockoutjs.com/'},
-    { name: 'Dojo', url: 'https://dojotoolkit.org/'},
-    { name: 'Mootools', url: 'https://mootools.net/'},
-    { name: 'Underscore', url: 'https://documentcloud.github.io/underscore/'},
-    { name: 'Lodash', url: 'https://lodash.com/'},
-    { name: 'Moment', url: 'https://momentjs.com/'},
-    { name: 'Express', url: 'https://expressjs.com/'},
-    { name: 'Koa', url: 'https://koajs.com/'},
+          todos: [                                                                       
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-10x10/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> 10x10 dublado</spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-american-horror-story/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> american horror... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/annabelle-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Annabelle 2 
+</spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> A órfã </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-apocalipse/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> apocalipse série </spam>
+  </div> ,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+<a href="https://jdv-tv9.webnode.com/filme-centro-de-trauma/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Centro de trauma </spam></div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/dragon-ball-super-broly/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Dragon ball sup... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-fratura/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Fratura dublado </spam>
+  </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-frozen-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Frozen 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-nove-vidas/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Filme nove vidas </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-o-estrangeiro/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> O estrangeiro </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/perigo-em-alto-mar/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Perigo em alto... </spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-pets-2/">
+    <img src="#" height="210" width="100%"/></a><h2 id="fontetexto">dublado</h2>
+    <spam> pets 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/privacidade-violada/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Privacidade vio... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/rbtv/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Rede Brasil TV  </spam>
+
+  </div>,
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-10x10/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> 10x10 dublado</spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-american-horror-story/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> american horror... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/annabelle-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Annabelle 2 
+</spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> A órfã </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-apocalipse/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> apocalipse série </spam>
+  </div> ,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+<a href="https://jdv-tv9.webnode.com/filme-centro-de-trauma/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Centro de trauma </spam></div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/dragon-ball-super-broly/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Dragon ball sup... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-fratura/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Fratura dublado </spam>
+  </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-frozen-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Frozen 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-nove-vidas/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Filme nove vidas </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-o-estrangeiro/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> O estrangeiro </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/perigo-em-alto-mar/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Perigo em alto... </spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-pets-2/">
+    <img src="#" height="210" width="100%"/></a><h2 id="fontetexto">dublado</h2>
+    <spam> pets 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/privacidade-violada/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Privacidade vio... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/rbtv/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Rede Brasil TV  </spam>
+
+  </div>,
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-10x10/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> 10x10 dublado</spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-american-horror-story/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> american horror... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/annabelle-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Annabelle 2 
+</spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> A órfã </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-apocalipse/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> apocalipse série </spam>
+  </div> ,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+<a href="https://jdv-tv9.webnode.com/filme-centro-de-trauma/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Centro de trauma </spam></div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/dragon-ball-super-broly/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Dragon ball sup... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-fratura/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Fratura dublado </spam>
+  </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-frozen-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Frozen 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-nove-vidas/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Filme nove vidas </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-o-estrangeiro/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> O estrangeiro </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/perigo-em-alto-mar/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Perigo em alto... </spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-pets-2/">
+    <img src="#" height="210" width="100%"/></a><h2 id="fontetexto">dublado</h2>
+    <spam> pets 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/privacidade-violada/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Privacidade vio... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/rbtv/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Rede Brasil TV  </spam>
+
+  </div>,
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-10x10/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> 10x10 dublado</spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-american-horror-story/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> american horror... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/annabelle-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Annabelle 2 
+</spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> A órfã </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/serie-apocalipse/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> apocalipse série </spam>
+  </div> ,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+<a href="https://jdv-tv9.webnode.com/filme-centro-de-trauma/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Centro de trauma </spam></div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/dragon-ball-super-broly/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Dragon ball sup... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-fratura/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Fratura dublado </spam>
+  </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-frozen-2/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Frozen 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-nove-vidas/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Filme nove vidas </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-o-estrangeiro/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> O estrangeiro </spam>
+  </div>,
+
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/perigo-em-alto-mar/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Perigo em alto... </spam>
+  </div> ,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-pets-2/">
+    <img src="#" height="210" width="100%"/></a><h2 id="fontetexto">dublado</h2>
+    <spam> pets 2 </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/privacidade-violada/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Privacidade vio... </spam>
+  </div>,
+  
+  <div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/rbtv/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Rede Brasil TV  </spam>
+
+  </div>,
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-super-onze/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam> Super onze </spam>
+  </div>,
+            
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>,
+
+<div id="column1">
+<h1 id="fontetexto"><i class="fa fa-star"></i>8,0</h1>
+    <a href="https://jdv-tv9.webnode.com/filme-a-orfa/">
+    <img src="#" height="210" width="100%"/></a>
+<h2 id="fontetexto">dublado</h2>
+    <spam>17</spam>
+          
+    </div>
 ],
           currentPage: 1,
-          todosPerPage: 3,
+          todosPerPage: 10,
           upperPageBound: 3,
           lowerPageBound: 0,
           isPrevBtnActive: 'disabled',
@@ -102,7 +735,8 @@ class TodoApp extends React.Component {
         const currentTodos = todos.slice(indexOfFirstTodo, indexOfLastTodo);
 
         const renderTodos = currentTodos.map((todo, index) => {
-          return <li key={index}>{todo}</li>;
+          return <li id="li" key={index}>{todo}
+            </li>;
         });
 
         // Logic for displaying page numbers
@@ -150,7 +784,7 @@ class TodoApp extends React.Component {
             <ul>
               {renderTodos}
             </ul>
-            <ul className="pagination">
+            <ul className="pagination" id="t">
               {renderPrevBtn}
               {pageDecrementBtn}
               {renderPageNumbers}
